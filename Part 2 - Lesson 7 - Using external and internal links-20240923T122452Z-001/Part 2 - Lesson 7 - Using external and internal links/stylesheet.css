@@ -1,0 +1,102 @@
+﻿
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.mainDiv {
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    padding: 5px;
+}
+
+#question {
+    padding: 10px;
+    font-size: 20px;
+}
+
+ul {
+    font-size: 20px;
+    list-style-type: none;
+}
+
+li {
+    padding-top: 4px;
+    background-color: green;
+    border-radius: 5px;
+    padding: 9px;
+    margin: 6px;
+    width: fit-content;
+}
+
+    li > a {
+        text-decoration: none;
+        color: white;
+    }
+
+#firstDiv {
+    margin-left: 10%;
+}
+
+#submitTicket {
+    padding-top: calc(100vh - 380px);
+    width: 50%;
+    margin-left: 10%;
+}
+
+#inputForm {
+    display: block;
+    border: 3px solid gray;
+    border-radius: 4px;
+    padding: 20px 0px;
+}
+
+label {
+    margin: 5px 40px;
+    display: block;
+    font-size: 20px;
+}
+
+input, textarea {
+    font-size: 20px;
+    margin: 0px 40px;
+    width: 60%;
+}
+
+.submitButton {
+    display: block;
+    text-align: center;
+    width: 70px;
+    border: 1px solid #0066ff;
+    background-color: #0066ff;
+    color: white;
+    border-radius: 4px;
+    padding: 8px;
+    margin: 10px 40px;
+    text-decoration: none;
+}
+
+#FAQ {
+    padding-top: calc(100vh - 380px);
+    width: 70%;
+    margin-left: 10%;
+}
+
+#FAQdiv {
+    border: 3px solid gray;
+    padding: 20px;
+}
+
+    #FAQdiv p, a {
+        display: inline;
+    }
+
+footer {
+    margin-top: 3%;
+    margin-left: 10%;
+}
